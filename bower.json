@@ -1,0 +1,16 @@
+{
+  "name": "simple-java-notes",
+  "version": "0.1.0-0",
+  "homepage": "https://github.com/LongYC/simple-java-notes",
+  "authors": [
+    "LongYC <contact@longyc.com>"
+  ],
+  "description": "Simple Java Notes.",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
