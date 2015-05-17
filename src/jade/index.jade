@@ -1,8 +1,20 @@
 doctype html
-html
+html(role='document')
   head
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible' content='IE=edge')
     meta(name='viewport' content='width=device-width, initial-scale=1')
     title Simple Java Notes
+    link(href='css/bootstrap.min.css' rel='stylesheet')
+    link(href='css/bootstrap-theme.min.css' rel='stylesheet')
+    link(href='css/main.css' rel='stylesheet')
   body
+    nav.navbar.navbar-inverse.navbar-fixed-top
+      div.container
+        div.navbar-header
+          a.navbar-brand(href='#' title='Simple Java Notes') Simple Java Notes
+    div.container(role='main')
+      div.jumbotron
+        h1 Simple Java Notes
+    script(src='js/jquery.min.js')
+    script(src='js/bootstrap.min.js')
