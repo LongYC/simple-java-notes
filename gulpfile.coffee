@@ -3,9 +3,15 @@ jade = require 'gulp-jade'
 
 # Copy dependencies.
 
-gulp.task 'copy', ->
+gulp.task 'copy-jquery', ->
+  gulp.src 'bower_components/jquery/dist/**/*'
+    .pipe gulp.dest 'dist/js/'
+
+gulp.task 'copy-bootstrap', ->
   gulp.src 'bower_components/bootstrap/dist/**/*'
     .pipe gulp.dest 'dist/'
+
+gulp.task 'copy', ['copy-jquery', 'copy-bootstrap']
 
 # Compile source.
 
