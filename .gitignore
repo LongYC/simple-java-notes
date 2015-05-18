@@ -29,3 +29,6 @@ bower_components
 
 # Distribution
 dist/
+
+# Mac
+.DS_Store
