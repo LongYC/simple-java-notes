@@ -1,6 +1,7 @@
 gulp = require 'gulp'
 jade = require 'gulp-jade'
 less = require 'gulp-less'
+markdown = require 'gulp-markdown'
 minify = require 'gulp-minify-css'
 
 # Copy dependencies.
@@ -28,7 +29,12 @@ gulp.task 'jade', ->
     .pipe jade()
     .pipe gulp.dest 'dist'
 
-gulp.task 'compile', ['jade', 'less']
+gulp.task 'markdown', ->
+  gulp.src 'content/**/*.md'
+    .pipe markdown()
+    .pipe gulp.dest 'dist'
+
+gulp.task 'compile', ['jade', 'less', 'markdown']
 
 # Default
 
