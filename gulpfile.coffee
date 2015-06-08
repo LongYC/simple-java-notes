@@ -1,7 +1,6 @@
 gulp = require 'gulp'
 jade = require 'gulp-jade'
 less = require 'gulp-less'
-markdown = require 'gulp-markdown'
 minify = require 'gulp-minify-css'
 
 # Copy dependencies.
