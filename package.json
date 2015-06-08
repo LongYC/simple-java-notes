@@ -12,7 +12,8 @@
     "gulp-jade": "^1.0.0",
     "gulp-less": "^3.0.3",
     "gulp-minify-css": "^1.1.1",
-    "jade": "^1.9.2"
+    "jade": "^1.9.2",
+    "marked": "^0.3.3"
   },
   "scripts": {
     "postinstall": "bower install; gulp"
