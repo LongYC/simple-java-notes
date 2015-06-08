@@ -29,12 +29,7 @@ gulp.task 'jade', ->
     .pipe jade()
     .pipe gulp.dest 'dist'
 
-gulp.task 'markdown', ->
-  gulp.src 'content/**/*.md'
-    .pipe markdown()
-    .pipe gulp.dest 'dist'
-
-gulp.task 'compile', ['jade', 'less', 'markdown']
+gulp.task 'compile', ['jade', 'less']
 
 # Default
 

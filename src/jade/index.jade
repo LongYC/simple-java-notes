@@ -23,8 +23,8 @@ html(role='document')
         p
           | The notes and tutorials here are kept short and easy-to-read.
           | They could be useful for quick refresh, reaffirm existing knowledge or kick start a learning process but it is best to obtain the details and specifications from official documentations.
-      include topic/introduction.jade
-      include topic/getting-started.jade
-      include topic/hello-world.jade
+      include:markdown ../../content/introduction.md
+      include:markdown ../../content/getting-started.md
+      include:markdown ../../content/hello-world.md
     script(src='js/jquery.min.js')
     script(src='js/bootstrap.min.js')
