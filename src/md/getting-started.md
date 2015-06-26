@@ -1,8 +1,8 @@
-# Getting Started With Java
+## Getting Started With Java
 
 Basic understanding and set up are essential before writing Java programs.
 
-## How Java Works
+### How Java Works
 
 - Write Java source code in normal text files with **.java** extension, e.g. *LongYC.java*
 
@@ -10,7 +10,7 @@ Basic understanding and set up are essential before writing Java programs.
 
 - The .class files contain **bytecodes** which can be **interpreted by a JVM (Java Virtual Machine)** software to produce desired results.
 
-## Requirements
+### Requirements
 
 - **JRE (Java Runtime Environment)** is required to run Java programmes; JRE includes JVM.
 

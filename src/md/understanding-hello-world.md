@@ -1,4 +1,4 @@
-# Understanding Hello World
+## Understanding Hello World
 
 ```
 public class MyFirstJava
@@ -12,7 +12,7 @@ public class MyFirstJava
 
 Analyse the “Hello World” program line by line; focus on the structure, details will be attended later. The code contains only a class ( MyFirstJava ) with one method ( main ).
 
-## 1 – Class Declaration
+### 1 – Class Declaration
 
 Java focuses on interactions of objects; an object is created with a class as the blueprint.
 
@@ -24,7 +24,7 @@ public class MyFirstJava { }
 - `class` – a mandatory Java keyword in a class declaration.
 - `MyFirstJava` – identifier / name of the class.
 
-## 2 - Method Declaration
+### 2 - Method Declaration
 
 Each Java class uses the method mechanism to perform some operations. The main method is the entry point where program execution starts.
 
@@ -37,7 +37,7 @@ public static void main (String[] args) { }
 - `main` – identifier / name of the method.
 - `(String[] args)` – argument of the method.
 
-## 3 - Method Body
+### 3 - Method Body
 
 Each method contains codes that determine what the method does.
 

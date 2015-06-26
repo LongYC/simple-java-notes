@@ -1,8 +1,8 @@
-# First Java Programme
+## First Java Programme
 
 After having the JDK up and running, now it is time to write a typical first "Hello World" program in Java. Create the Java file below using any text editor.
 
-## Filename: MyFirstJava.java
+### Filename: MyFirstJava.java
 
 ```
 public class MyFirstJava
@@ -14,7 +14,7 @@ public class MyFirstJava
 }
 ```
 
-## Compile Source Code
+### Compile Source Code
 
 - Fire up command prompt or terminal tool, go to the directory where the file resides.
 
@@ -22,7 +22,7 @@ public class MyFirstJava
 
 - `MyFirstJava.class` will be created if the file is compiled successfully.
 
-## Running The Programme
+### Running The Programme
 
 - Use the **java** command to interpret the class file, do not include the `.class` extension: `java MyFirstJava`
 

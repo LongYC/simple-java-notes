@@ -1,8 +1,8 @@
-# Introduction To Java Programming
+## Introduction To Java Programming
 
 While it is all right to learn Java as your first programming language, I highly recommend you to learn a procedural programming language (such as C) before moving into an object-oriented language like Java. It will make the learning process a lot easier.
 
-## History, Version and Editions
+### History, Version and Editions
 
 - Started by James Gosling in year 1991 as the Oak programming language. As of year 2012, the latest version is Java 7 (version 1.7).
 
@@ -12,7 +12,7 @@ While it is all right to learn Java as your first programming language, I highly
 
 - **Java EE (Enterprise Edition)** is more advanced and is widely used in the industry
 
-## Basic Information
+### Basic Information
 
 - Java is an **object-oriented** programming language that is loosely based on C++. It focuses on interactions of objects instead of just step-by-step procedures.
 
