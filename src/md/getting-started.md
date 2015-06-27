@@ -10,7 +10,7 @@
 
 ### Requirements
 
-- **JRE (Java Runtime Environment)** is required to run Java programmes; JRE includes JVM.
+- **JRE (Java Runtime Environment)** is required to run Java programs; JRE includes JVM.
 
 - **JDK (Java Development Kit)** is required to compile Java source code into bytecodes; JDK includes JRE.
 

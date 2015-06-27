@@ -14,16 +14,16 @@ public class MyFirstJava
 }
 ```
 
-### Compile Source Code
+### Compile
 
-- Fire up command prompt or terminal tool, go to the directory where the file resides.
+- Fire up terminal *(Linux / Mac OS)* or command prompt *(Windows)*, go to the directory where the file resides.
 
 - Use the **javac** command to compile. JDK path must be in the `PATH` environment variable: `javac MyFirstJava.java`
 
 - `MyFirstJava.class` will be created if the file is compiled successfully.
 
-### Running The Programme
+### Run
 
-- Use the **java** command to interpret the class file, do not include the `.class` extension: `java MyFirstJava`
+- Use the **java** command to interpret the class file, do not include the `.class` extension, e.g. `java MyFirstJava`
 
-- The "Hello World!" text will be displayed: `Hello World!`
+- The "Hello World!" text will be displayed.
