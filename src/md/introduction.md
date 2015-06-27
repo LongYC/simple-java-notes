@@ -1,4 +1,4 @@
-## Introduction To Java
+## Introduction
 
 ### History, Version and Editions
 

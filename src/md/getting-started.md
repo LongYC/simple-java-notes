@@ -1,4 +1,4 @@
-## Getting Started With Java
+## Getting Started
 
 Basic understanding and set up are essential before writing Java programs.
 

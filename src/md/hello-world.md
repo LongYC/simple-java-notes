@@ -1,4 +1,4 @@
-## First Java Programme
+## Hello World
 
 After having the JDK up and running, now it is time to write a typical first "Hello World" program in Java. Create the Java file below using any text editor.
 
