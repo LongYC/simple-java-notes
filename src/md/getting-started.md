@@ -1,7 +1,5 @@
 ## Getting Started
 
-Basic understanding and set up are essential before writing Java programs.
-
 ### How Java Works
 
 - Write Java source code in normal text files with **.java** extension, e.g. *LongYC.java*

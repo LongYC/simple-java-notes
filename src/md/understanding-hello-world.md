@@ -10,7 +10,7 @@ public class MyFirstJava
 }
 ```
 
-Analyse the “Hello World” program line by line; focus on the structure, details will be attended later. The code contains only a class ( MyFirstJava ) with one method ( main ).
+Focus on the structure: the code contains one class (`MyFirstJava`) with one method (`main`).
 
 ### 1 – Class Declaration
 
