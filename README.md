@@ -1,6 +1,6 @@
 # Simple Java Notes
 
-**Version :** `0.1.0-0`
+**Version :** `0.1.0`
 
 Trying to learn the Java programming language or doing a revision? Make sense, as Java is one of the most popular programming languages that can be used to develop large scale corporate web applications or portable mobile applications. Beginner or intermediate, here are some notes and tutorials that could help.
 
