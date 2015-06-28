@@ -1,3 +1,5 @@
+packagejson = require './package.json'
+
 gulp = require 'gulp'
 jade = require 'gulp-jade'
 less = require 'gulp-less'
@@ -29,7 +31,9 @@ gulp.task 'less', ->
 
 gulp.task 'jade', ->
   gulp.src 'src/main/jade/index.jade'
-    .pipe jade()
+    .pipe jade
+      locals:
+        version: packagejson.version
     .pipe gulp.dest 'dist'
 
 gulp.task 'compile', ['jade', 'less']
