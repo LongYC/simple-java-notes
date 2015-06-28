@@ -18,13 +18,13 @@ gulp.task 'copy', ['copy-jquery', 'copy-bootstrap']
 # Compile source.
 
 gulp.task 'less', ->
-  gulp.src 'src/less/main.less'
+  gulp.src 'src/main/less/main.less'
     .pipe less()
     .pipe minify()
     .pipe gulp.dest 'dist/css'
 
 gulp.task 'jade', ->
-  gulp.src 'src/jade/index.jade'
+  gulp.src 'src/main/jade/index.jade'
     .pipe jade()
     .pipe gulp.dest 'dist'
 
