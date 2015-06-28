@@ -1,0 +1,102 @@
+<!DOCTYPE html><html role="document"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Simple Java Notes</title><link href="css/bootstrap.min.css" rel="stylesheet"><link href="css/bootstrap-theme.min.css" rel="stylesheet"><link href="css/main.css" rel="stylesheet"><link href="favicon.ico" rel="shortcut icon"></head><body><div role="main" class="container"><div class="jumbotron"><h1>Simple Java Notes</h1><p>Trying to learn the Java programming language or doing a revision?
+Make sense, as Java is one of the most popular programming languages that can be used to develop large scale corporate web applications or portable mobile applications.
+Beginner or intermediate, here are some notes and tutorials that could help.</p><p>The notes and tutorials here are kept short and easy-to-read.
+They could be useful for quick refresh, reaffirm existing knowledge or kick start a learning process but it is best to obtain the details and specifications from official documentations.</p></div><h2 id="introduction">Introduction</h2>
+<h3 id="history-version-and-editions">History, Version and Editions</h3>
+<ul>
+<li><p>Started by James Gosling in year 1991 as the Oak programming language. As of year 2012, the latest version is Java 7 (version 1.7).</p>
+</li>
+<li><p>There are several editions of Java optimized for different purposes.</p>
+</li>
+<li><p>This note starts with <strong>Java SE (Standard Edition)</strong> that covers the basics.</p>
+</li>
+<li><p><strong>Java EE (Enterprise Edition)</strong> is more advanced and is widely used in the industry.</p>
+</li>
+</ul>
+<h3 id="basic-information">Basic Information</h3>
+<ul>
+<li><p>Java is an <strong>object-oriented</strong> programming language that is loosely based on C++. It focuses on interactions of objects instead of just step-by-step procedures <em>(while it is all right to learn Java as the first programming language, learning a procedural programming language such as C before moving into an object-oriented language like Java could make the learning process easier)</em>.</p>
+</li>
+<li><p>Java is <strong>platform independent</strong>. A Java program can be easily made to run on Windows, UNIX, Linux and Mac OS with little or no modification on the code.</p>
+</li>
+<li><p>There are many more advanced features but knowing these should be good for starter.</p>
+</li>
+</ul>
+<h2 id="getting-started">Getting Started</h2>
+<h3 id="how-java-works">How Java Works</h3>
+<ul>
+<li><p>Write Java source code in normal text files with <strong>.java</strong> extension, e.g. <em>LongYC.java</em></p>
+</li>
+<li><p>Compile the source code into <strong>.class</strong> files, e.g. <em>LongYC.class</em></p>
+</li>
+<li><p>The .class files contain <strong>bytecodes</strong> which can be <strong>interpreted by a JVM (Java Virtual Machine)</strong> software to produce desired results.</p>
+</li>
+</ul>
+<h3 id="requirements">Requirements</h3>
+<ul>
+<li><p><strong>JRE (Java Runtime Environment)</strong> is required to run Java programs; JRE includes JVM.</p>
+</li>
+<li><p><strong>JDK (Java Development Kit)</strong> is required to compile Java source code into bytecodes; JDK includes JRE.</p>
+</li>
+<li><p>JRE &amp; JDK for various platforms are available for download from <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html" title="Java SE - Downloads | Oracle Technology Network | Oracle">Oracle official website</a>.</p>
+</li>
+</ul>
+<h2 id="hello-world">Hello World</h2>
+<p>Create a <code>.java</code> file below with any text editor.</p>
+<h3 id="filename-myfirstjava-java-">Filename: <code>MyFirstJava.java</code></h3>
+<pre><code>public class MyFirstJava
+{
+    public static void main (String[] args)
+    {
+        System.out.print(&quot;Hello World!&quot;);
+    }
+}
+</code></pre><h3 id="compile">Compile</h3>
+<ul>
+<li><p>Fire up terminal <em>(Linux / Mac OS)</em> or command prompt <em>(Windows)</em>, go to the directory where the file resides.</p>
+</li>
+<li><p>Use the <strong>javac</strong> command to compile. JDK path must be in the <code>PATH</code> environment variable: <code>javac MyFirstJava.java</code></p>
+</li>
+<li><p><code>MyFirstJava.class</code> will be created if the file is compiled successfully.</p>
+</li>
+</ul>
+<h3 id="run">Run</h3>
+<ul>
+<li><p>Use the <strong>java</strong> command to interpret the class file, do not include the <code>.class</code> extension, e.g. <code>java MyFirstJava</code></p>
+</li>
+<li><p>The &quot;Hello World!&quot; text will be displayed.</p>
+</li>
+</ul>
+<h2 id="understanding-hello-world">Understanding Hello World</h2>
+<pre><code>public class MyFirstJava
+{
+    public static void main (String[] args)
+    {
+        System.out.print(&quot;Hello World!&quot;);
+    }
+}
+</code></pre><p>Focus on the structure: the code contains one class (<code>MyFirstJava</code>) with one method (<code>main</code>).</p>
+<h3 id="1-class-declaration">1 – Class Declaration</h3>
+<p>Java focuses on interactions of objects; an object is created with a class as the blueprint.</p>
+<pre><code>public class MyFirstJava { }
+</code></pre><ul>
+<li><code>public</code> – modifier that determines the accessibility of the class.</li>
+<li><code>class</code> – a mandatory Java keyword in a class declaration.</li>
+<li><code>MyFirstJava</code> – identifier / name of the class.</li>
+</ul>
+<h3 id="2-method-declaration">2 - Method Declaration</h3>
+<p>Each Java class uses the method mechanism to perform some operations. The main method is the entry point where program execution starts.</p>
+<pre><code>public static void main (String[] args) { }
+</code></pre><ul>
+<li><code>public static</code> – modifiers that determines the accessibility of the method.</li>
+<li><code>void</code> – return type of the method.</li>
+<li><code>main</code> – identifier / name of the method.</li>
+<li><code>(String[] args)</code> – argument of the method.</li>
+</ul>
+<h3 id="3-method-body">3 - Method Body</h3>
+<p>Each method contains codes that determine what the method does.</p>
+<pre><code>System.out.print(&quot;Hello World!&quot;);
+</code></pre><ul>
+<li>This <code>main</code> method prints “Hello World!” using a standard built-in method in Java.</li>
+</ul>
+<div id="footer">Version 0.1.0</div></div><script src="js/jquery.min.js"></script><script src="js/bootstrap.min.js"></script></body></html>
