@@ -13,7 +13,11 @@ gulp.task 'copy-bootstrap', ->
   gulp.src 'bower_components/bootstrap/dist/**/*'
     .pipe gulp.dest 'dist/'
 
-gulp.task 'copy', ['copy-jquery', 'copy-bootstrap']
+gulp.task 'copy-favicon', ->
+  gulp.src 'src/resources/favicon.ico'
+    .pipe gulp.dest 'dist/'
+
+gulp.task 'copy', ['copy-jquery', 'copy-bootstrap', 'copy-favicon']
 
 # Compile source.
 
